@@ -1,0 +1,158 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1100px) {
+
+  .logo {
+    width : 400px ;
+    height : 66px ;
+    margin-top: 20px;
+  }
+
+  .logo2 {
+    display : block ;
+    margin : 15px auto ;
+    width : 45% ;
+    height : 45% ;
+    
+}
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .spec ul li {
+    font-size: 24px;
+  }
+
+
+  footer {
+    text-align: center;
+  }
+
+  .heading h2 {
+    font-size: 26px;
+  }
+
+  .copy h4{
+    font-size: 16px; 
+  }
+}
+
+  /* モバイル向けレイアウト */
+  @media all and (max-width: 750px) {
+
+    .logo {
+      width : 350px ;
+      height : 58px ;
+      margin-top: 25px;
+    }
+
+    .header-right  {
+      display:none;
+    }   
+
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top:0;
+      right:10px;
+      
+    }
+
+    .logo2 {
+      display : block ;
+      margin : 15px auto ;
+      width : 50% ;
+      height : 50% ;
+      
+  }
+
+  #mammal {
+    width : 375px ;
+    height : 250px ;
+    margin:30px 0;
+  }
+      
+    h1 {
+    font-size: 25px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    .spec ul li {
+      font-size: 18px;
+    }
+
+    .heading h2 {
+      font-size: 20px;
+    }
+
+    .copy h4{
+      font-size: 13px; 
+    }
+  }
+
+    /* モバイル向けレイアウト */
+  @media all and (max-width: 500px) {
+
+    .logo {
+      width : 300px ;
+      height : 50px ;
+      margin-top: 35px;
+      margin-left: -15px;
+    }
+
+    .header-right  {
+      display:none;
+    }   
+
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top:0;
+      right:10px;
+      font-size: 25px;
+      padding: 35px 10px;
+    }
+    
+    .logo2 {
+      display : block ;
+      margin : 15px auto ;
+      width : 55% ;
+      height : 55% ;
+      
+  }
+
+    #mammal {
+      width : 300px ;
+      height : 200px ;
+      margin:30px 0;
+    }
+
+    h1 {
+    font-size: 19px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+
+    .spec ul li {
+      font-size: 16px;
+    }
+
+    .heading h2 {
+      font-size: 18px;
+    }
+
+    .copy h4{
+      font-size: 10px; 
+    }
+  }
+
+

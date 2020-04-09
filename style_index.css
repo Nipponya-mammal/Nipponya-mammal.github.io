@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+header {
+  height : 120px ;
+  width: 100%;
+  background-color:rgba(38, 107, 236, 0.5) ;
+  position :fixed ;
+  top : 0 ;
+  z-index: 10 ;
+}
+
+.logo {
+  width : 480px ;
+  height : 80px ;
+  margin:15px auto;
+}
+
+.contents {
+  display:flex;
+}
+
+.header-left {
+  margin-left:30px;
+  margin-right:70px;
+}
+/* <!-- モバイル用のヘッダーのメニュー --> */
+
+.menu-icon {
+  color: black;
+  font-size: 30px;
+  padding: 30px 30px;
+  display:none;
+  margin-top: 5px;
+}
+
+.close-modal{
+  margin-top:5px;
+  margin-right:10px;
+  font-size: small;
+  color:black;
+  cursor: pointer;
+  
+}
+
+nav {
+  display:none;
+  background: rgba(38, 107, 236, 0.5);
+  color: #fff;
+  width:20%;
+  height:auto;
+  min-width: 120px;
+  max-width: 150px;
+  position:absolute;
+  top:90px;
+  right:0;
+  margin:0 auto;
+  
+} 
+
+nav.active {
+ display:block;
+}
+
+.nav-title{
+  text-align: center;
+  
+}
+
+.nav-listview li {
+  list-style: none;
+  padding-bottom: 8px;
+  text-align:center;
+  padding-top:6px;
+}
+
+.nav-listview li:hover {
+  background-color:rgb(112, 214, 112);
+  transition: all 1.0s;
+}
+
+.nav-listview li a {
+  text-decoration:none;
+  text-align:center;
+  color:whitesmoke;
+}
+
+/*  <!-- モバイル用のヘッダーのメニュー --> */ 
+
+.header-right {
+  height : 120px ;
+  background-color: rgba(255, 255, 255,0.3);
+}
+
+.header-right:hover {
+  background-color:rgba(38, 107, 236, 0.5) ;
+  transition: all 1.0s;
+}
+
+.header-right a:hover {
+  color: rgba(255, 0, 0,0.9);
+  transition: all 1.0s;
+}
+
+.header-right a {
+  line-height:120px;
+  padding: 0 15px;
+  color: black ;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-wrapper {
+  background-image : url(image/top.jpeg);
+  background-size:cover;
+  width:100%;
+  height:100%;
+
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: red;
+  text-align: center;
+  padding: 180px 0 300px 0;
+  margin-top:0;
+}
+
+.serivce-wrapper {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading h2{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: blue ;
+  font-weight: bold;
+  font-size : 30px ;
+}
+
+.service-icon {
+  position: relative;
+  margin:25px;
+  
+}
+
+.inbound, .consultant, .coding {
+  width : 40% ;
+  height : 30% ;
+}
+
+.service {
+  margin:20px;
+}
+
+.service-icon a {
+  position: absolute;
+  display:block;
+  top: 35%;
+  width: 100%;
+  color:rgb(230, 98, 46);
+  font-size: 30px;
+}
+
+.service-icon a:hover {
+  color:red;
+  transition: all 1.5s;
+}
+
+.text-contents {
+  line-height: 50px;
+  flex:auto;
+  font-size: 20px;
+  color: grey ;
+  /* ホバー：デフォルトで非表示 */
+  /* display:none; */
+
+  /* スクロール：デフォルトで非表示 */
+  transition:all 1.5s;  
+  opacity:0;
+  visibility:hidden;
+}
+
+.text-active {
+  /* ホバーすると表示 */
+  /* display:block; */
+
+  /* スクロールで表示 */ 
+  visibility:visible; 
+  opacity:1;
+}
+
+/* float: left; を解除 */
+/* .clear { */
+  /* clear: left; */
+/* } */
+
+footer {
+  border-top : 2px solid orange;
+}
+
+.copy {
+  text-align: right;
+  padding: 0 30px;
+}

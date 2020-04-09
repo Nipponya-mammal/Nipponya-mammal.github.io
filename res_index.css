@@ -1,0 +1,158 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1100px) {
+
+  .logo {
+    width : 400px ;
+    height : 66px ;
+    margin-top: 20px;
+    
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 25px;
+  }
+
+  .inbound, .consultant, .coding {
+    width : 50% ;
+    height : 35% ;
+  }
+
+  .service-icon a {
+    font-size: 22px;
+  }
+
+  .service p {
+    font-size: 22px;
+  }
+
+  .service {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  footer {
+    text-align: center;
+  }
+
+  .copy h4{
+    font-size: 16px; 
+  }
+}
+
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 750px) {
+
+  .logo {
+    width : 350px ;
+    height : 58px ;
+    margin-top: 25px;
+  }
+
+  .header-right {
+    display:none;
+  }
+  
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top:0;
+    right:10px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 25px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .inbound, .consultant, .coding {
+    width : 60% ;
+    height : 45% ;
+  }
+
+  .service-icon a {
+    font-size: 18px;
+  }
+
+  .service p {
+    font-size: 18px;
+  }
+
+  .service {
+        flex-direction: column;
+  }
+
+  footer {
+      text-align: center;
+  }
+  
+  .copy h4{
+      font-size: 13px; 
+  }
+}
+
+
+  /* モバイル向けレイアウト */
+@media all and (max-width: 500px) {
+
+  .logo {
+    width : 300px ;
+    height : 50px ;
+    margin-top: 35px;
+    margin-left: -15px;
+  }
+
+  .header-right {
+    display:none;
+  }
+  
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top:0;
+    right:10px;
+    font-size: 25px;
+    padding: 35px 10px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 19px;
+  }
+
+  .heading h2 {
+    font-size: 18px;
+  }
+
+  .inbound, .consultant, .coding {
+    width : 70% ;
+    height : 52% ;
+  }
+
+
+  .service-icon a {
+    font-size: 16px;
+  }
+
+  .service p {
+    font-size: 16px;
+  }
+
+  .service {
+        flex-direction: column;
+  }
+
+  footer {
+      text-align: center;
+  }
+  
+  .copy h4{
+      font-size: 10px; 
+  }
+
+}
