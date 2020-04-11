@@ -133,7 +133,7 @@ nav.active {
 
 .logo2 {
     display : block ;
-    margin : 15px auto ;
+    margin : 20px auto ;
     width : 40% ;
     height : 40% ;
     
@@ -191,10 +191,6 @@ nav.active {
   /* スクロールで表示 */ 
   visibility:visible; 
   opacity:1;
-}
-
-.heading {
-  
 }
 
 .heading h2 {
