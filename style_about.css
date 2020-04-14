@@ -118,8 +118,7 @@ nav.active {
 .top-wrapper {
   background-image: url(image/maple.jpeg);
   background-size: cover;
-  width:100%;
-  height:100%;
+  
 }
 
 .top-wrapper-inbound {
