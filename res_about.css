@@ -11,14 +11,14 @@
     display : block ;
     margin : 15px auto ;
     width : 50% ;
-    height : 50% ;
+    height : auto ;
     
 }
   .logo2 {
     display : block ;
     margin : 15px auto ;
     width : 45% ;
-    height : 45% ;
+    height : auto ;
     
 }
 
@@ -73,7 +73,7 @@
       display : block ;
       margin : 15px auto ;
       width : 55% ;
-      height : 55% ;
+      height : auto ;
       
   }
   
@@ -81,7 +81,7 @@
       display : block ;
       margin : 15px auto ;
       width : 50% ;
-      height : 50% ;
+      height : auto ;
       
   }
 
@@ -139,7 +139,7 @@
       display : block ;
       margin : 15px auto ;
       width : 60% ;
-      height : 60% ;
+      height : auto ;
       
   }
 
@@ -147,8 +147,8 @@
       display : block ;
       margin : 15px auto ;
       width : 55% ;
-      height : 55% ;
-      
+      height : auto ;
+
   }
 
     #mammal {

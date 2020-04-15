@@ -134,14 +134,14 @@ nav.active {
     display : block ;
     margin : 25px auto ;
     width : 45% ;
-    height : 45% ;
+    height : auto ;
 }
 
 .logo2 {
     display : block ;
     margin : 25px auto ;
     width : 40% ;
-    height : 40% ;
+    height : auto ;
     
 }
 
