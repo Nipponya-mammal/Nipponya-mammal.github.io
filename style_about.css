@@ -130,6 +130,13 @@ nav.active {
  height:120px; 
 }
 
+.logo1 {
+    display : block ;
+    margin : 25px auto ;
+    width : 45% ;
+    height : 45% ;
+}
+
 .logo2 {
     display : block ;
     margin : 25px auto ;

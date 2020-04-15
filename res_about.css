@@ -7,6 +7,13 @@
     margin-top: 20px;
   }
 
+  .logo1 {
+    display : block ;
+    margin : 15px auto ;
+    width : 50% ;
+    height : 50% ;
+    
+}
   .logo2 {
     display : block ;
     margin : 15px auto ;
@@ -62,6 +69,14 @@
       
     }
 
+    .logo1 {
+      display : block ;
+      margin : 15px auto ;
+      width : 55% ;
+      height : 55% ;
+      
+  }
+  
     .logo2 {
       display : block ;
       margin : 15px auto ;
@@ -120,6 +135,14 @@
       padding: 35px 10px;
     }
     
+    .logo1 {
+      display : block ;
+      margin : 15px auto ;
+      width : 60% ;
+      height : 60% ;
+      
+  }
+
     .logo2 {
       display : block ;
       margin : 15px auto ;
