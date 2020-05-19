@@ -79,11 +79,12 @@ nav.active {
   padding-bottom: 8px;
   text-align:center;
   padding-top:6px;
+  transition: all 1.0s;
 }
 
 .nav-listview li:hover {
   background-color:rgb(112, 214, 112);
-  transition: all 1.0s;
+  
 }
 
 .nav-listview li a {
@@ -97,22 +98,24 @@ nav.active {
 .header-right {
   background-color: rgba(255, 255, 255, 0.3);
   height : 120px ;
+  transition: all 1.0s;
 }
 
 .header-right:hover {
   background-color: rgba(38, 107, 236, 0.5) ;
-  transition: all 1.0s;
+  
 }
 
 .header-right a:hover {
   color: rgba(255, 0, 0,0.9);
-  transition: all 1.0s;
+  
 }
 
 .header-right a {
   line-height: 120px;
   padding: 0 15px;
   color: black ;
+  transition: all 1.0s;
 }
 
 .top-wrapper {
